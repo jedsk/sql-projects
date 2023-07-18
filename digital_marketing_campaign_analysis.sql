@@ -1,8 +1,8 @@
-"This SQL query showcases complex data extraction and manipulation from a digital marketing database. 
+/*This SQL query showcases complex data extraction and manipulation from a digital marketing database. 
   It collects information about various campaigns, including details like account ID, account name, campaign, geography, platform, media, ad type, and language. 
   Further, it processes the conversion data by distinguishing between different conversion types, calculating the number of conversions and visits, and identifying the conversion source. 
   The query excludes data related to 'youtube' in the campaign name, conversion type name, and profile. 
-  It demonstrates the usage of multiple SQL features including Regular Expression, String Manipulation, Conditional Logic (CASE WHEN), and JOIN operations."
+  It demonstrates the usage of multiple SQL features including Regular Expression, String Manipulation, Conditional Logic (CASE WHEN), and JOIN operations.*/
 
 SELECT a.date,
        a.profile_id AS account_id,
